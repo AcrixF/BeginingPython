@@ -181,3 +181,39 @@ print( x );
 x.sort();
 
 print( x );
+
+y = x.copy();
+
+y.sort();
+
+print( y );
+
+print('################### SORTED #########################');
+
+x = sorted('Python');
+
+print( x );
+
+
+print('################### ADVANCED SORT #########################');
+
+x = ['aardvark', 'abalone', 'acme', 'add', 'aerate'];
+
+print( x );
+
+x.sort(key= len);
+
+print( x );
+
+x = [ 4, 6, 2, 1, 7, 9 ];
+
+
+print( x );
+
+x.sort(reverse= True);
+
+print( x );
+
+
+
+
